@@ -1,0 +1,6 @@
+# Keep internal files out of the deployed site.
+CLAUDE.md
+README.md
+tools/
+graces-preview.html
+.gitignore
