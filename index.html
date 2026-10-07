@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grace's Takeaway, Piltown | Fried Chicken, Burgers, Pizza &amp; Kebabs</title>
+  <meta name="description" content="Grace's Takeaway on Main Street, Piltown, Co. Kilkenny. Fried chicken cooked from fresh, burgers, kebabs, pizza, fish and chips. Call 051 643 759 to order for collection or local delivery.">
+  <!-- PREVIEW: remove this noindex line (and robots.txt) at launch -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1f5a26">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,600&amp;family=Nunito:wght@400;700;800&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- HOURS (1 of 2): opening hours for Google and for the "Open now" badge.
+       Keep in sync with the hours table below; `python3 tools/build.py` checks this. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Grace's Takeaway",
+    "slogan": "The tastiest chicken in town!",
+    "telephone": "+353 51 643 759",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Main Street, Banagher",
+      "addressLocality": "Piltown",
+      "addressRegion": "Co. Kilkenny",
+      "addressCountry": "IE"
+    },
+    "servesCuisine": ["Fried chicken", "Burgers", "Kebabs", "Pizza", "Fish and chips"],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday", "Thursday"], "opens": "16:00", "closes": "22:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "15:00", "closes": "22:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "16:00", "closes": "22:30" }
+    ]
+  }
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER (copied into menu.html by tools/build.py) -->
+  <div class="preview-bar" role="note">Design preview · not the official website</div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="" width="48" height="50">
+        <span class="brand-name">Grace's Takeaway<small>Piltown · Co. Kilkenny</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="menu.html">Menu</a>
+        <a href="#hours">Hours</a>
+        <a href="#find-us">Find us</a>
+      </nav>
+      <a class="btn btn-gold header-call" href="tel:+35351643759">
+        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+        051 643 759
+      </a>
+    </div>
+  </header>
+  <!-- /HEADER -->
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="status" data-status hidden></p>
+          <h1>Grace's Takeaway, Piltown</h1>
+          <p class="tagline">“The tastiest chicken in town!”</p>
+          <p class="lede">Your family-run takeaway on Main Street. Fried chicken cooked from fresh with our own special recipe coating, plus burgers, kebabs, pizza, fish and chips.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="tel:+35351643759">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+              Call to order: 051 643 759
+            </a>
+            <a class="btn btn-outline" href="menu.html">See the full menu</a>
+          </div>
+        </div>
+        <!-- LOGO: cropped from a screenshot; swap for the owner's full-resolution file -->
+        <img class="hero-logo" src="assets/logo.png" alt="Grace's logo: a gold G with the banner 'The tastiest chicken in town!'" width="298" height="312">
+      </div>
+    </section>
+
+    <section class="section" id="whats-on">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">What's on the menu</span>
+          <h2>Something for everyone</h2>
+          <p>From a bag of chips to the Family Box. Tap a section to see the full list and prices.</p>
+        </div>
+        <div class="card-grid">
+          <a class="card feature" href="menu.html#chicken">
+            <h3>Grace's chicken</h3>
+            <p>Cooked from fresh with our own special recipe coating. Boxes, fillets, strips and breast in a bun.</p>
+            <span class="more">See chicken →</span>
+          </a>
+          <a class="card" href="menu.html#burgers">
+            <h3>Burgers</h3>
+            <p>From a regular burger to the Farmhouse Quarter Pounder with bacon, egg and onions.</p>
+            <span class="more">See burgers →</span>
+          </a>
+          <a class="card" href="menu.html#kebabs">
+            <h3>Kebabs</h3>
+            <p>Doner, tandoori, mixed and southern fried chicken, with mixed salad, garlic and chilli sauce.</p>
+            <span class="more">See kebabs →</span>
+          </a>
+          <a class="card" href="menu.html#pizza">
+            <h3>Pizza</h3>
+            <p>10″ and 14″ pizzas, garlic pizza bread and Nutella bites, or build your own.</p>
+            <span class="more">See pizza →</span>
+          </a>
+          <a class="card" href="menu.html#wraps">
+            <h3>Wraps</h3>
+            <p>Choose your sauce, your filling and up to four toppings.</p>
+            <span class="more">See wraps →</span>
+          </a>
+          <a class="card" href="menu.html#chips">
+            <h3>Chips</h3>
+            <p>Half chip to taco mince chip, topped with Grace's gravy, curry, cheese and more.</p>
+            <span class="more">See chips →</span>
+          </a>
+          <a class="card" href="menu.html#fish">
+            <h3>Fish</h3>
+            <p>Fresh beer-battered fish with lemon and tartare sauce, or the Fish Supper Box.</p>
+            <span class="more">See fish →</span>
+          </a>
+          <a class="card" href="menu.html#sides">
+            <h3>Sides &amp; dips</h3>
+            <p>Homemade onion rings, nuggets, chicken chunks and Grace's homemade gravy.</p>
+            <span class="more">See sides →</span>
+          </a>
+          <a class="card" href="menu.html#kids">
+            <h3>Kids' meals</h3>
+            <p>Nugget, burger or sausage meal, each with a Capri-Sun.</p>
+            <span class="more">See kids' meals →</span>
+          </a>
+        </div>
+        <p class="center-cta"><a class="btn btn-green" href="menu.html">View the full menu &amp; prices</a></p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="order">
+      <div class="wrap">
+        <div class="order-box">
+          <div>
+            <h2>Hungry? Order now</h2>
+            <p>Give us a ring and we'll have it ready. Collection or local delivery: ask about delivery to your area when you call.</p>
+            <p>Got an allergy? Please tell us when you order.</p>
+          </div>
+          <div class="order-actions">
+            <a class="btn btn-gold" href="tel:+35351643759">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+              Call 051 643 759
+            </a>
+            <!-- ORDER-LINK: when the ordering platform is set up, set href to its ordering page,
+                 remove aria-disabled, and change the label to "Order online". -->
+            <a class="btn btn-outline" href="#order" aria-disabled="true">Order online (coming soon)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="hours">
+      <div class="wrap two-col">
+        <div>
+          <div class="section-head">
+            <span class="kicker">Opening hours</span>
+            <h2>When we're open</h2>
+            <p class="status status-light" data-status hidden></p>
+          </div>
+          <div class="panel">
+            <!-- HOURS (2 of 2): keep in sync with the JSON-LD block in <head>. -->
+            <table class="hours-table">
+              <caption class="sr-only">Opening hours</caption>
+              <tbody>
+                <tr data-day="Monday" class="closed"><th scope="row">Monday</th><td>Closed</td></tr>
+                <tr data-day="Tuesday" class="closed"><th scope="row">Tuesday</th><td>Closed</td></tr>
+                <tr data-day="Wednesday"><th scope="row">Wednesday</th><td>4pm – 10pm</td></tr>
+                <tr data-day="Thursday"><th scope="row">Thursday</th><td>4pm – 10pm</td></tr>
+                <tr data-day="Friday"><th scope="row">Friday</th><td>3pm – 10:30pm</td></tr>
+                <tr data-day="Saturday"><th scope="row">Saturday</th><td>4pm – 10:30pm</td></tr>
+                <tr data-day="Sunday"><th scope="row">Sunday</th><td>4pm – 10:30pm</td></tr>
+              </tbody>
+            </table>
+            <p class="small-print">Hours can change on bank holidays. If in doubt, give us a call.</p>
+          </div>
+        </div>
+
+        <div id="find-us">
+          <div class="section-head">
+            <span class="kicker">Find us</span>
+            <h2>On Main Street, Piltown</h2>
+          </div>
+          <div class="panel">
+            <ul class="contact-list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+                <span><strong>Address</strong>Grace's Takeaway, Main Street, Banagher, Piltown, Co. Kilkenny</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+                <span><strong>Phone</strong><a href="tel:+35351643759">051 643 759</a></span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M3 6h11v9H3zm11 3h4l3 3v3h-7zM6.5 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+                <span><strong>Collection &amp; local delivery</strong>Ask about delivery to your area when you call.</span>
+              </li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn-green" href="https://www.google.com/maps/search/?api=1&amp;query=Grace%27s+Takeaway+Main+Street+Piltown+Co.+Kilkenny" target="_blank" rel="noopener">Get directions</a>
+              <a class="btn btn-outline-dark" href="tel:+35351643759">Call us</a>
+            </div>
+            <!-- SHOPFRONT-PHOTO: replace this placeholder with
+                 <img src="assets/shopfront.jpg" alt="Grace's Takeaway shopfront on Main Street, Piltown" width="1200" height="900" loading="lazy">
+                 (Senan to take the photo) -->
+            <div class="photo-placeholder">Shopfront photo coming soon</div>
+            <!-- /SHOPFRONT-PHOTO -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (copied into menu.html by tools/build.py) -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h3>Grace's Takeaway</h3>
+          <p>Main Street, Banagher<br>Piltown, Co. Kilkenny</p>
+          <p><a href="tel:+35351643759">051 643 759</a></p>
+        </div>
+        <div>
+          <h3>Opening hours</h3>
+          <p><a href="#hours">See full opening hours</a></p>
+        </div>
+        <div>
+          <h3>Allergies</h3>
+          <p>If you have a food allergy or intolerance, please tell us when you order and ask us about the allergens in any dish.</p>
+        </div>
+      </div>
+      <p class="footer-base">Design preview for discussion only. Not the official Grace's Takeaway website. Menu prices may have changed.</p>
+    </div>
+  </footer>
+  <nav class="callbar" aria-label="Quick actions">
+    <a class="btn btn-gold" href="tel:+35351643759">Call 051 643 759</a>
+    <a class="btn btn-outline" href="menu.html">Menu</a>
+  </nav>
+  <!-- /FOOTER -->
+</body>
+</html>
